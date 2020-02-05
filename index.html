@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/0d2f138c44.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Susan Pruzensky | Front End Developer</title>
+    </head>
+
+  <body>
+
+  <div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+    <label for="navi-toggle" class="navigation__button">
+      <span class="navigation__icon"></span>
+    </label>
+
+    <div class="navigation__background">&nbsp</div>
+
+    <nav class="navigation__nav">
+      <ul class="navigation__list">
+        <li class="navigation__item"><a href="index.html" id="home__link" class="navigation__link">Home</a></li>
+        <li class="navigation__item"><a href="#about" id="about__link" class="navigation__link">About</a></li>
+        <li class="navigation__item"><a href="#work" id="work__link" class="navigation__link">Work</a></li>
+        <li class="navigation__item"><a href="#rsvp" id="contact__link" class="navigation__link">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+
+
+  <header>
+    <div class="text-container">
+      <h1>Susan Pruzensky</h1>
+      <p>Front End Developer</p>
+      <p>NYC & NVA</p>
+      <ul class="icon-container">
+        <li><a class="icon" href="https://www.linkedin.com/in/susan-pruzensky-105406118/"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a class="icon" href="https://github.com/susanpru"><i class="fab fa-github"></i></a></li>
+        <li><a class="icon" href="mailto:susanpruzensky@gmail.com"><i class="far fa-envelope"></i></a></li>
+        <li><a class="icon" href="https://codepen.io/SusanPru"><i class="fab fa-codepen"></i></a></li>
+      </ul>
+    </div>
+    <div class="down-arrow">
+      <a id="arrow" href="#about"><i class="fas fa-chevron-down"></i></a>
+    </div>
+  </header>
+
+  <section id="about" name="about">
+    <div class="about__text__container">
+      <h2 class="text-h2" data-aos="fade-right">Hi, I'm <span class="name">Susan</span>.<br> Nice to meet you.</h2>
+      <h3>I'm a self taught Front End Developer. Before starting my Journey into coding I was a Personal Trainer. I'm quietly confident, naturally curious, and obsessive about growing my skills. I love taking an idea and turning it into a beautiful webpage flexing new and old creative muscles. You can find me at the coofee shop or dog park with my <a href="#" class="popup">pup</a></h3>
+    </div>
+    <div class="about__skills">
+      <h2>Languages I speak</h2>
+      <ul class="about__skills__list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>SCSS</li>
+        <li>JavaScript</li>
+      </ul>
+      <h2>Tools I use</h2>
+      <ul class="about__skills__list">
+        <li>Github</li>
+        <li>Codepen</li>
+        <li>Terminal</li>
+        <li>Bootstrap</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="work" name="work">
+    <h1>My Recent Work</h1>
+    <p>Here are a few recent prjects. Want to see more? <a class="email-me" href="#">Email me</a></p>
+    <div class="work-container" data-aos="fade-up">
+      <div class="project">
+        <p>LJ Sports Consulting</p>
+        <img class="project-img" src="images/project-1.jpg">
+        <a href="https://github.com/susanpru/Sports-Consultant-Website" class="project__link">View on Github</a>
+        <a href="https://serene-wright-e73caf.netlify.com/" class="project__link">View live site</a>
+      </div>
+      <div class="project">
+        <p>Bethea Medical</p>
+        <img class="project-img" src="images/project-2.jpg">
+        <a href="https://github.com/susanpru/Medical-Company-Website" class="project__link">View on Github</a>
+        <a href="https://unruffled-tereshkova-e4b465.netlify.com/" class="project__link">View live site</a>
+      </div>
+      <div class="project">
+        <p>App Launch</p>
+        <img class="project-img" src="images/project-3.jpg">
+        <a href="https://github.com/susanpru/New-App-Landing-Page" class="project__link">View on Github</a>
+        <a href="https://silly-carson-64070e.netlify.com/" class="project__link">View live site</a>
+      </div>
+    </div>
+    <a href="https://github.com/susanpru" class="github">See More on Github</a>
+  </section>
+
+  <section id="rsvp">
+    <h2 class="text-h2">Let's Connect</h2>
+    <div class="contact-container">
+      <ul class="icon-container-rsvp">
+        <li><a class="icon" href="www.linkedin.com/in/susan-pruzensky-105406118"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a class="icon" href="https://github.com/susanpru"><i class="fab fa-github"></i></a></li>
+        <li><a class="icon" href="mailto:susanpruzensky@gmail.com"><i class="far fa-envelope"></i></a></li>
+        <li><a class="icon" href="https://codepen.io/SusanPru"><i class="fab fa-codepen"></i></a></li>
+      </ul>
+    </div>
+    <p>Susan Pruzensky &copy2020. All Rights Reserved.</p>
+  </section>
+
+  <div class="content">
+      <div class="content-box">
+
+      </div>
+  </div>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="main.js"></script>
+    <script>
+
+      AOS.init({
+        offset: 400,
+        mirror: false,
+        duration: 800
+      });
+
+
+    </script>
+  </body>
+  </html>
